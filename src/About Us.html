@@ -5,65 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <section class="logo-box">
-            <img src="" alt="logo">
+        <section class="container">
+            <section>
+                <h2>LOGO</h2>
+                <section class="nav-toggle" id="navToggle">
+                    <img id="navClosed" class="navIcon" src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/hamburger.svg" alt="hamburger menu">
+                    <img id="navOpen" class="navIcon hidden" src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/close.svg" alt="close hamburger">
+                </section>
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="#">Homepage</a></li>
+                    <li><a class="active" href="#">About Us</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
         </section>
-        <nav>
-            <a href="#">Homepage</a>
-            <a href="#">About Us</a>
-            <a href="#">Shop</a>
-            <a href="#">Product</a>
-            <a href="#">Cart</a>
-            <a href="#">Contact us</a>
-        </nav>
     </header>
     <main>
-        <section class="text-center">
-            <h1 class="text-uppercase">About Shop</h1>
-            <p>"_____________"</p>
+        <section class="hero" id="Homepage">
+            <section class="hero__container">
+                <h1 class="hero__heading">About Shop</h1>
+                <p class="hero__description">Know more about our shop</p>
+            </section>
         </section>
     </main>
     <footer>
-        <section class="container">
-            <section class="row">
-                <section class="footer-col">
-                    <h4>MAIN MENU</h4>
-                    <u1>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">Help</a></li>
-                    </u1>
+        <section class="footer__container">
+            <section class="footer__links">
+              <section class="footer__link--wrapper">
+                <section class="footer__link--items">
+                  <h2>MAIN MENU</h2>
+                  <a href="/sign__up">Home</a> <a href="/">About</a>
+                  <a href="/">Shop</a> <a href="/">Help</a>
                 </section>
-                <section class="footer-col">
-                    <h4>COMPANY</h4>
-                    <u1>
-                        <li><a href="#">The Company</a></li>
-                        <li><a href="#">Careers Press</a></li>
-                    </u1>
+                <section class="footer__link--items">
+                  <h2>COMPANY</h2>
+                  <a href="/">The company</a> <a href="/">Careers press</a>
                 </section>
-                <section class="footer-col">
-                    <h4>DISCOVER</h4>
-                    <u1>
-                        <li><a href="#">The Team</a></li>
-                        <li><a href="#">Our History</a></li>
-                    </u1>
+            </section>
+              <section class="footer__link--wrapper">
+                <section class="footer__link--items">
+                  <h2>Discover</h2>
+                  <a href="/">The Team</a> <a href="/">Our History</a>
                 </section>
-                <section class="footer-col">
-                    <h4>FIND US ON</h4>
-                    <section class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-telegram"></i></a>
-                    </section>
+                <section class="footer__link--items">
+                  <h2>FIND US ON</h2>
+                  <a href="/">Facebook</a> <a href="/">Instagram</a>
+                  <a href="/">Telegram</a> <a href="/">Twitter</a>
                 </section>
             </section>
         </section>
+            <section class="social__media">
+              <section class="social__media--wrap">
+                <section class="footer__logo">
+                  <a href="/" id="footer__logo">LOGO</a>
+                </SECTION>
+                <p class="website__rights">© LOGO 2022.. All rights reserved</p>
+                <section class="social__icons">
+                  <a href="/" class="social__icon--link" target="_blank"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                  <a href="/" class="social__icon--link"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="/" class="social__icon--link"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                  <a href="/" class="social__icon--link"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="/" class="social__icon--link"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </section>
+              </section>
+            </section>
+        </section>
     </footer>
-    
+    <script src="main.js"></script>
 </body>
 </html>

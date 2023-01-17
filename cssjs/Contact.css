@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    background-color: #eaeaea;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .nav-items{
+    display: flex;
+    align-items: center;
+}
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    padding: 0 1.25rem;
+  }
+  
+  li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  li:hover a {
+    color: #088178;
+    text-decoration: underline;
+  }
+  
+  .nav-toggle {
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+  }
+  
+  .nav-toggle img {
+    width: 1.5rem;
+    transition: 300ms all ease;
+  }
+  
+  .nav-toggle:hover img {
+    opacity: 0.6;
+  }
+  
+  .open {
+    height: 100vh;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  @media all and (max-width: 720px) {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav {
+      height: 0;
+      width: 100%;
+      overflow: hidden;
+      transition: 250ms height ease-in-out;
+    }
+  
+    li {
+      display: block;
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+  
+    li a {
+      font-size: 1.4rem;
+    }
+  
+    .nav-toggle {
+      display: block;
+    }
+  }
+
+  .contact-section .form-control{
+    border: 1px solid  #2fbfbc;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      box-shadow: none;
+  }
+  .contact-fields {
+    padding:40px 0px 0px;
+  }
+  .phone {
+    padding-top: 50px;
+  }
+  .phone,
+  .email {
+    margin-bottom:30px;
+  }
+  .phone h2,
+  .email h2 {
+    margin-top:0px;
+  }
+  .phone a,
+  .email {
+    color: #fd4f00;
+    font-size:18px;
+  }
+  .contact-h2 {
+    color: #fd4f00;
+    padding-top:20px;
+  }
+  .contact-fields .form-group {
+    margin-bottom: 35px;
+  }
+  .contact-info {
+    margin-top: -40px;
+  }
+  .contact-fields .form-group input,
+  .contact-fields .form-group textarea {
+    font-size: 20px;
+  }
+  
+  @media screen and (min-width: 980px) {
+    .contact-info {
+      padding-left: 110px;
+    }
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    background-color: #ededed;
+  }
+  
+  .footer {
+    padding: 40px 0;
+    background-color: #fff;
+  }
+  
+  .footer.social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+  }
+  
+  .footer.social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+  }
+  
+  .footer.social a:hover{
+    opacity: 0.9;
+  }
+  
+  .footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .footer ul li a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  .footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+  }
+  
+  .footer ul li a:hover {
+    opacity: 1;
+  }
+  
+  .footer.copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+  }
+  
+  @media all and (max-width: 720px) {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }

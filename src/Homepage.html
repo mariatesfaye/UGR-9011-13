@@ -5,64 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <section class="logo-box">
-            <img src="" alt="logo">
-            <input type="text" placeholder="search" name="search"/>
+        <section class="container">
+            <section>
+                <h2>LOGO</h2>
+                <section class="nav-toggle" id="navToggle">
+                    <img id="navClosed" class="navIcon" src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/hamburger.svg" alt="hamburger menu">
+                    <img id="navOpen" class="navIcon hidden" src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/close.svg" alt="close hamburger">
+                </section>
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="#">Homepage</a></li>
+                    <li><a class="active" href="#">About Us</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
         </section>
-        <nav>
-            <a href="#">Homepage</a>
-            <a href="#">About Us</a>
-            <a href="#">Shop</a>
-            <a href="#">Product</a>
-            <a href="#">Cart</a>
-            <a href="#">Contact us</a>
-        </nav>
     </header>
     <main>
-        <section class="Feature-gallery">
-            <section class="Feature">
-                <img src="" alt="feature">
-                <img src="" alt="feature">
-                <img src="" alt="feature">
-            </section>
-            <button>Shop Now</button>
-        </section>
-        <section class="Featured-product">
-            <section class="product">
-                <img src="" alt="product">
-                <p class="img-text">""</p>
-                <img src="" alt="product">
-                <p class="img-text">""</p>
-            </section>
-        </section>
-        <section class="news-letter">
-            <section class="sign-up">
-                <input type="text" name="email address" id="email address" placeholder="Email Address">
-                <input type="text" name="subscribe" id="subscribe" placeholder="subscribe">
-            </section>
-        </section>
-        <section class="video">
-            <video controls>
-                <source src="video" type="video/mpeg'/">
-            </video>
-            <img src="" alt="additional products">
-            <img src="" alt="additional product">
-         </section>
+        <section class="home" id="home">
+            <div class="content">
+              <h1>Order Your Product <span class="yellow">Easier & Faster.</span></h1>
+              <p>
+                Lorem ipsum dolor sit amet,adipiscing elit. Eu, montes, metus
+          porttitor consectetur pretium. Euismod imperdiet pellentesque cursus
+          in netus.
+              </p>
+              <a href="#" class="home-btn">Go to Menu</a>
+            </div>
+            <div class="image">
+              <img src="demo.jfif" alt="" />
+            </div>
+          </section>
     </main>
     <footer>
-        <section class="bottom-links">
-            <section class="links">
-                <a href="#">Homepage</a>
-                <a href="#">About Us</a>
-                <a href="#">Shop</a>
-                <a href="#">Product</a>
-                <a href="#">Cart</a>
-                <a href="#">Contact us</a>
+        <section class="footer">
+            <section class="social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-snapchat"></i></a>
+                <a href="#"><i class="fab twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
             </section>
+            <ul class="list">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Shop</a>
+                </li>
+                <li>
+                    <a href="#">Product</a>
+                </li>
+                <li>
+                    <a href="#">Cart</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+            <p class="copyright">
+                © LOGO 2022.. All rights reserved
+            </p>
         </section>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
